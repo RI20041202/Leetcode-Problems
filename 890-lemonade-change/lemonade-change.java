@@ -14,7 +14,7 @@ class Solution {
                 if(fives>0 && tens>0){
                     tens--;
                     fives--;
-                }else if(fives>2){
+                }else if(fives>=3){
                     fives-=3;
                 }else{
                     return false;
